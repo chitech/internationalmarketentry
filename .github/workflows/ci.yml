@@ -19,4 +19,4 @@ jobs:
           pip install -r requirements.txt
       - name: Import package sanity check
         run: |
-          python -c "import market_entry_agent; print('market_entry_agent import OK')"
+          GOOGLE_API_KEY="test-key-ci" python -c "import market_entry_agent; print('market_entry_agent import OK')"
