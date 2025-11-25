@@ -28,6 +28,23 @@ Sequential pipeline with three specialized agents
 - Google AI API key
 - ADK dependencies (see requirements.txt)
 
+## Quick Example
+```python
+from market_entry_agent import root_agent
+from google.adk.runners import InMemoryRunner
+
+# Create runner
+runner = InMemoryRunner(agent=root_agent)
+
+# Run research
+response = await runner.run_debug(
+    "Research US market entry for a Jamaican e-commerce company"
+)
+
+print(response)
+```
+
+
 ## Installation
 ```bash
 # Clone the repository
