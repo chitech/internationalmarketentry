@@ -7,6 +7,9 @@ Multi-agent system helping international entrepreneurs research US market entry 
 This agent automates comprehensive market entry research that traditionally takes 2-3 weeks, delivering results in minutes. Built with Google's Agent Development Kit (ADK), it uses sequential multi-agent coordination to gather, analyze, and synthesize market intelligence.
 
 ## Features
+![Multi-Agent Architecture](docs/images/diagram_market.png)
+
+Sequential pipeline with three specialized agents
 
 - **Market Research Agent**: Gathers real-time data on target markets, competition, and opportunities
 - **Legal Requirements Agent**: Identifies visa options, business formation needs, and regulatory requirements
@@ -28,7 +31,7 @@ This agent automates comprehensive market entry research that traditionally take
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/international-market-entry-agent.git
+git clone https://github.com/chitech/international-market-entry-agent.git
 cd international-market-entry-agent
 
 # Create virtual environment
